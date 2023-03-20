@@ -1,0 +1,81 @@
+/* 初始化样式 */
+
+
+/* 清除元素默认的内外边距 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 让所有斜体不倾斜 */
+
+em,
+i {
+    font-style: normal;
+}
+
+
+/* 去掉li标签前的原点 */
+
+li {
+    list-style: none;
+}
+
+
+/* 图片无边框，去掉图片底部的空白缝隙 */
+
+img {
+    border: 0;
+    /*ie6*/
+    vertical-align: middle;
+}
+
+
+/* 让button按钮 变成小手 */
+
+button {
+    cursor: pointer;
+}
+
+
+/* 取消a连接的下划线，文字变成灰色 */
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', "\5B8B\4F53", sans-serif;
+    /* 去掉输入框和按钮的轮廓线 */
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', "\5B8B\4F53", sans-serif;
+    color: #666;
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+
+/* 京东网站清除浮动方式 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
